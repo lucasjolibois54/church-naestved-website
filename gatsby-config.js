@@ -13,12 +13,13 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
       },
       __key: "pages",
     },
+    `gatsby-transformer-remark`,
   ],
 };
