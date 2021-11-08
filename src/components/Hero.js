@@ -1,14 +1,16 @@
 import React from 'react'
 import '../styles/global.css';
 import hero from '../images/hero.png';
+import logo from '../images/logo.png';
 
 function Hero() {
     return (
         <div className="w-full p-20">
             <div className="flex h-screen">
-                <div className="hidden lg:block lg:w-1/2" >
-                    <div className="h-full object-cover">
-                        <img src={hero} className="h-full" alt="A dog smiling in a party hat" />
+                <div className="hidden lg:block lg:w-1/2">
+                    <div className="h-full object-cover relative">
+                        <img src={logo} className="absolute top-10 left-10" alt="logo" />
+                        <img src={hero} className="h-full" alt="" />
                     </div>
                 </div>
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
