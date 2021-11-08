@@ -9,6 +9,7 @@ import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
 import Event from "../components/Event";
 import Footer from "../components/Footer";
+import AboutHome from "../components/AboutHome";
 
 // markup
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <title>Home Page</title>
       <Hero />
       <ValueSec />
+      <AboutHome/>
       <Hand />
       <Event />
       <Footer />
