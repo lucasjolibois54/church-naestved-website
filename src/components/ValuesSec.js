@@ -21,20 +21,18 @@ function ValueSec() {
         "
       >
         <div className="w-full bg-light-green pt-10 pb-20 sm:w-2/6">
-          <h2 className="pl-8 text-5xl pb-10">01</h2>
-          <h2 className="pl-10">You send the invoice</h2>
+          <h2 className="pl-8 text-5xl font-black pb-10">01</h2>
+          <h2 className="pl-10 text-biege-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
         </div>
         <div className="w-full bg-medium-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-5xl pb-10">02</h2>
-          <h2 className="pl-10 pr-10 text-2xl">
-            It goes through a recognition system build upon blockchain, which
-            compares the invoice with a digital contract you and your customer have
-            already signed
+          <h2 className="pl-10 pr-10 text-2xl text-biege-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
           </h2>
         </div>
         <div className="w-full bg-dark-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-5xl pb-10">03</h2>
-          <h2 className="pl-10">Invoice sent if verified</h2>
+          <h2 className="pl-10 text-biege-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
         </div>
       </div>
     )

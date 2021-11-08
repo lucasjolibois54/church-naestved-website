@@ -7,6 +7,9 @@ module.exports = {
         'light-green': '#3D6955',
         'medium-green': '#325244',
         'dark-green': '#2E473C',
+        'regular-green': '#365E4C',
+        'biege-text': '#F8F2E3',
+        'dark-text': '#4A4A4A',
       }
     },
     },
