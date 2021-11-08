@@ -19,7 +19,7 @@ function Hand() {
         <h3 className="text-2xl pt-10 font-semibold text-regular-green">
           Hånden på hjertet
         </h3>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-bold text-dark-text py-5">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-5">
           Til dig mellem <br />
           <span className="text-regular-green"> 10 til 20 år</span>
         </h1>
