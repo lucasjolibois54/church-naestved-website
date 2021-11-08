@@ -15,7 +15,7 @@ function Hand() {
       <div className="w-full xl:w-5/10">
         <img src={barn} className="h-full" />
       </div>
-      <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
+      <div className="flex text-center font-sans flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
         <h3 className="text-2xl pt-10 font-bold text-regular-green">
           Hånden på hjertet
         </h3>
