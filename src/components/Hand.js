@@ -11,28 +11,35 @@ import barn from "../images/barn.png";
 
 function Hand() {
   return (
-    <div className="flex flex-col w-full lg:flex-row">
-      <div className="w-full lg:w-3/5">
+    <div className="flex flex-col w-full xl:flex-row">
+      <div className="w-full xl:w-5/10">
         <img src={barn} className="h-full" />
       </div>
-      <div className="flex flex-col w-full pl-10 pr-4 justify-center lg:w-2/5">
-        <h3 className="text-2xl font-semibold text-regular-green">
+      <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
+        <h3 className="text-2xl pt-10 font-semibold text-regular-green">
           Hånden på hjertet
         </h3>
-        <h1 className="text-7xl font-bold text-dark-text">
-          Til dig mellem
+        <h1 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-bold text-dark-text py-5">
+          Til dig mellem <br />
           <span className="text-regular-green"> 10 til 20 år</span>
         </h1>
-        <p className="text-xl text-dark-text">
+        <p className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
           Går du og bekymrer dig, er ked af det og måske har brug for at snakke
-          med nogen?
+          med nogen? Vores telefon har åbent mandag, onsdag og fredag mellem kl.
+          16 - 18.
         </p>
-        <h3 className="text-2xl font-semibold text-dark-text">
+        <h3 className="text-2xl font-semibold text-dark-text pb-5 pt-2">
           Så ring til{" "}
-          <span className="text-regular-green font-bold">23808237</span>. <br />
-          Vi har åbent mandag, onsdag og fredag mellem kl. 16 - 18
+          <span className="text-regular-green font-bold">23808237</span>.
         </h3>
-        <a className="font-semibold ">Eller kontakt os anonymt</a>
+        <div className="flex justify-center text-center items-center py-8 xl:justify-start">
+          <a
+            href="https://tailwindcss.com/docs/responsive-design"
+            className="font-semibold bg-dark-green px-4 py-2 text-biege-text rounded"
+          >
+            Eller kontakt os anonymt ➡
+          </a>
+        </div>
       </div>
     </div>
   );
