@@ -5,6 +5,7 @@ import * as React from "react"
 import Button from "../components/Button"
 import ButtonVanilla from "../components/ButtonVanilla"
 import ButtonTailwind from "../components/ButtonTailwind"
+import Hero from "../components/Hero"
 
 
 // markup
@@ -17,6 +18,7 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
       </h1>
+      <Hero />
       <Button />
       <ButtonVanilla />
       <ButtonTailwind />
