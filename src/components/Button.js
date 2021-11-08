@@ -1,18 +1,33 @@
 import React from 'react'
+import styled from 'styled-components'
 
-function Button() {
-    return (
-        <div>
-            <button style={buttonStyles}>Click me</button>
-        </div>
-    )
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+
+  &:hover{
+    background: red;
+    transition: all .1s ease-in-out;
+  }
+`;
+
+const Container = styled.div`
+  text-align: center;
+`
+
+function Knap() {
+  return (
+  <Container>
+    <Button>Normal Button</Button>
+    <Button primary>Primary Button</Button>
+  </Container>
+  )
 }
 
-export default Button
-
-const buttonStyles = {
-    color: "#232129",
-    backgroundColor: "#2abb9b",
-    padding: 10,
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  }
+export default Knap
