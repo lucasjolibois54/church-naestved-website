@@ -32,7 +32,12 @@ function Hero() {
                     </div>
                 </div>
                 <div className="hidden lg:block lg:w-1/2" >
-                    <div className="h-full object-cover" img="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80)">
+                    <div className="h-full object-cover">
+                        <img
+                            class="h-72 w-85 object-cover sm:h-72 md:h-52 lg:w-85 lg:h-72 mx-auto"
+                            src="/assets/images/hero.svg"
+                            alt=""
+                        />
                         <div className="h-full bg-blue-500 opacity-50"></div>
                     </div>
                 </div>
