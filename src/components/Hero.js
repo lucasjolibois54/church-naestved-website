@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
-import box2 from '../images/hero.svg';
+import hero from '../images/hero.png';
 
 function Hero() {
     return (
@@ -34,10 +34,7 @@ function Hero() {
                 </div>
                 <div className="hidden lg:block lg:w-1/2" >
                     <div className="h-full object-cover">
-                        <img
-                            alt="Gatsby G Logo"
-                            svg="width=763 height=1080" viewBox="0 0 763 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
-                        />
+                        <img src={hero} alt="A dog smiling in a party hat" />
                     </div>
                 </div>
             </div>
