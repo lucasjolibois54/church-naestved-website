@@ -1,0 +1,30 @@
+{
+  "name": "church",
+  "version": "1.0.0",
+  "private": true,
+  "description": "church",
+  "author": "AeeUX",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "babel-plugin-styled-components": "^1.13.3",
+    "gatsby": "^4.1.0",
+    "gatsby-plugin-manifest": "^4.1.0",
+    "gatsby-plugin-mdx": "^3.1.0",
+    "gatsby-plugin-styled-components": "^5.1.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.3"
+  }
+}
