@@ -1,11 +1,16 @@
 import React from 'react'
 import '../styles/global.css';
-import box2 from '../images/hero.svg';
+import hero from '../images/hero.png';
 
 function Hero() {
     return (
         <div className="w-full">
             <div className="flex bg-white h-screen">
+                <div className="hidden lg:block lg:w-1/2" >
+                    <div className="h-full object-cover">
+                        <img src={hero} className="h-full" alt="A dog smiling in a party hat" />
+                    </div>
+                </div>
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                     <div>
                         <span className="text-2xl font-semibold text-gray-800 md:text-4xl">⏰ Coming<span className="ml-2 text-blue-600">Soon</span> ⏰</span>
@@ -32,14 +37,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="hidden lg:block lg:w-1/2" >
-                    <div className="h-full object-cover">
-                        <img
-                            alt="Gatsby G Logo"
-                            svg="width=763 height=1080" viewBox="0 0 763 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
-                        />
-                    </div>
-                </div>
+
             </div>
         </div>
     )
