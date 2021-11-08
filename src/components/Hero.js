@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 
 function Hero() {
     return (
-        <div className="w-full p-20">
+        <div className="px-24 w-full">
             <div className="flex h-screen">
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
