@@ -15,7 +15,7 @@ function Hand() {
       <div className="w-full xl:w-5/10">
         <img src={barn} className="h-full" />
       </div>
-      <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
+      <div className="flex text-center font-sans flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
         <h3 className="text-2xl pt-10 font-bold text-regular-green">
           Hånden på hjertet
         </h3>
@@ -39,7 +39,7 @@ function Hand() {
             href="https://tailwindcss.com/docs/responsive-design"
             className="font-semibold bg-dark-green px-4 py-2 text-biege-text rounded"
           >
-            Eller kontakt os anonymt ➡
+            Eller kontakt os anonymt <span className="font-black">&rarr;</span>
           </a>
         </div>
       </div>
