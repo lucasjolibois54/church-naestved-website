@@ -7,6 +7,7 @@ import ButtonTailwind from "../components/ButtonTailwind";
 import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
+import Footer from "../components/Footer";
 
 // markup
 const IndexPage = () => {
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <Hero />
       <ValueSec />
       <Hand />
+      <Footer/>
     </main>
   );
 };
