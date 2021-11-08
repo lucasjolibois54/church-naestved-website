@@ -14,11 +14,6 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations!{" "}🎉
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-      </h1>
       <Hero />
       <ValueSec />
 
