@@ -1,9 +1,14 @@
 import * as React from "react"
 
+
+//components
+import Button from "../components/Button"
+
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+       <Button />
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations
