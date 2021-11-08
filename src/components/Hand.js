@@ -39,7 +39,7 @@ function Hand() {
             href="https://tailwindcss.com/docs/responsive-design"
             className="font-semibold bg-dark-green px-4 py-2 text-biege-text rounded"
           >
-            Eller kontakt os anonymt ➡
+            Eller kontakt os anonymt <span className="font-black">&rarr;</span>
           </a>
         </div>
       </div>
