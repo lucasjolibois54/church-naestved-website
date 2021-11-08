@@ -15,7 +15,7 @@ function Hero() {
                 </div>
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                     <div>
-                        <h1 className="py-5 text-4xl sm:text-6xl font-semibold text-dark-text md:text-7xl"><span className="ml-2 text-regular-green">Save</span> the lord</h1>
+                        <h1 className="py-5 text-4xl sm:text-6xl font-black font-sans text-dark-text 2xl:text-8xl"><span className="ml-2 text-regular-green">Save</span> the lord</h1>
 
                         <p className="mt-2 md:text-right text-sm text-dark-text md:text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div className="flex space-x-3 justify-center md:justify-end lg:justify-end mt-6">
