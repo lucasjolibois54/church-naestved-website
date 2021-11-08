@@ -3,6 +3,9 @@ import * as React from "react"
 
 //components
 import Button from "../components/Button"
+import ButtonVanilla from "../components/ButtonVanilla"
+import ButtonTailwind from "../components/ButtonTailwind"
+
 
 // markup
 const IndexPage = () => {
@@ -15,6 +18,8 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
       </h1>
       <Button />
+      <ButtonVanilla />
+      <ButtonTailwind />
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}😎
