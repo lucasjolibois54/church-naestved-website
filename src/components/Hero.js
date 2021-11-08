@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
+import box2 from '../images/hero.svg';
 
 function Hero() {
     return (
@@ -34,11 +35,9 @@ function Hero() {
                 <div className="hidden lg:block lg:w-1/2" >
                     <div className="h-full object-cover">
                         <img
-                            class="h-72 w-85 object-cover sm:h-72 md:h-52 lg:w-85 lg:h-72 mx-auto"
-                            src="/assets/images/hero.svg"
-                            alt=""
+                            alt="Gatsby G Logo"
+                            svg="width=763 height=1080" viewBox="0 0 763 1080" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
                         />
-                        <div className="h-full bg-blue-500 opacity-50"></div>
                     </div>
                 </div>
             </div>
