@@ -13,6 +13,7 @@ function ValueSec() {
         <div
         className="
           mb-0
+          mt-20
           flex flex-col
           content-center
           text-off-white text-3xl
