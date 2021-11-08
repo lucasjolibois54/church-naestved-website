@@ -21,7 +21,7 @@ function ValueSec() {
         "
       >
         <div className="w-full bg-light-green pt-10 pb-20 sm:w-2/6">
-          <h2 className="pl-8 text-5xl bold pb-10 stroke-current text-purple-600">01</h2>
+          <h2 className="pl-8 text-5xl font-black pb-10">01</h2>
           <h2 className="pl-10 text-biege-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
         </div>
         <div className="w-full bg-medium-green pt-10 pb-20 sm:w-2/6">
