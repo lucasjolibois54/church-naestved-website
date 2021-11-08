@@ -6,6 +6,7 @@ import Button from "../components/Button"
 import ButtonVanilla from "../components/ButtonVanilla"
 import ButtonTailwind from "../components/ButtonTailwind"
 import Hero from "../components/Hero"
+import ValueSec from "../components/ValuesSec"
 
 
 // markup
@@ -19,6 +20,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
       </h1>
       <Hero />
+      <ValueSec />
       <Button />
       <ButtonVanilla />
       <ButtonTailwind />
