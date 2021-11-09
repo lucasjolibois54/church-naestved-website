@@ -18,6 +18,7 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "babel-plugin-styled-components": "^1.13.3",
+    "framer-motion": "^5.2.1",
     "gatsby": "^4.1.0",
     "gatsby-plugin-manifest": "^4.1.0",
     "gatsby-plugin-mdx": "^3.1.0",
@@ -27,6 +28,8 @@
     "pure-react-carousel": "^1.27.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-lorem-ipsum": "^1.4.9",
+    "react-router-dom": "^6.0.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
