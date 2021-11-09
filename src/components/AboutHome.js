@@ -30,7 +30,7 @@ function AboutHome() {
           </div>
         </div>
         <div className="w-full xl:w-5/10">
-          <img src={Kirke} className="zoom h-full p-16" />
+          <img src={Kirke} className=" h-full p-16" />
         </div>
       </div>
     )
