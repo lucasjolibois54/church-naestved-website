@@ -1,8 +1,4 @@
 import * as React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-
-//framer-motion
-import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 //components
 import Hero from "../components/Hero";
@@ -13,8 +9,7 @@ import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
-import ImagePopper from "../components/ImagePopper";
-import { Header } from "../components/ImagePopper/Header";
+import ImagePopper from "../components/ImagePopper/ImagePopper";
 
 
 // markup
@@ -23,14 +18,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <Hero />
-      <div className="container">
-        <AnimateSharedLayout type="crossfade">
-          <Header />
-          <Router>
-            <Route path={["/:id", "/"]} component={ImagePopper} />
-          </Router>
-        </AnimateSharedLayout>
-      </div>
+      <ImagePopper />
       <ValueSec />
       <AboutHome />
       <Hand />
