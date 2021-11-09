@@ -32,7 +32,7 @@ function Hand() {
         </p>
         <h3 className="text-2xl font-semibold text-dark-text pb-5 pt-2">
           Så ring til{" "}
-          <span className="text-regular-green font-bold">23808237</span>.
+          <span className="text-regular-green font-bold hover:underline"><a href="tel:23808237">23808237</a></span>.
         </h3>
         <div className="flex justify-center text-center items-center py-3 xl:justify-start">
           <a
