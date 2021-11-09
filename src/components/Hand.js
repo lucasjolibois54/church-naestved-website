@@ -19,10 +19,10 @@ function Hand() {
         <h3 className="text-2xl pt-10 font-bold text-regular-green">
           Hånden på hjertet
         </h3>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black text-dark-text">
+        <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black text-dark-text">
           Til dig mellem <br />
           <span className="text-regular-green"> 10 til 20 år</span>
-        </h1>
+        </h2>
         <p className="text-xl px-5 text-dark-text py-3 md:px-24 xl:pl-0 xl:pr-48">
           Går du og bekymrer dig, er ked af det eller måske bare mangler en at
           snakke med? Du er aldrig alene, tag hånden på hjertet, ring ind til os

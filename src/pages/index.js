@@ -7,6 +7,7 @@ import ButtonTailwind from "../components/ButtonTailwind";
 import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
+import Podcast from "../components/Podcast";
 import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <ValueSec />
       <AboutHome />
       <Hand />
+      <Podcast />
       <Event />
       <Index />
       <Footer />
