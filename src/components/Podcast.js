@@ -32,7 +32,7 @@ function Podcast() {
             aliquip ex ea commodo consequat.
           </p>
           <a
-            className="font-semibold bg-dark-green px-4 py-2 text-biege-text rounded"
+            className="font-semibold bg-regular-green px-4 py-2 text-biege-text rounded"
             href="https://github.com/"
           >
             Få mere at vide &rarr;
