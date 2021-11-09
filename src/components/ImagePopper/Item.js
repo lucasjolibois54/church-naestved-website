@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LoremIpsum } from "react-lorem-ipsum";
 import { Link } from "react-router-dom";
-import { items } from "../components/ImagePopper/Data";
+import { items } from "./data";
 
 export function Item({ id }) {
   const { category, title } = items.find(item => item.id === id);
