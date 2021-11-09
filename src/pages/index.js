@@ -8,6 +8,7 @@ import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
 import Event from "../components/Event";
+import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
 
@@ -18,9 +19,10 @@ const IndexPage = () => {
       <title>Home Page</title>
       <Hero />
       <ValueSec />
-      <AboutHome/>
+      <AboutHome />
       <Hand />
       <Event />
+      <Index />
       <Footer />
     </main>
   );
