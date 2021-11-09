@@ -6,7 +6,7 @@ import PodcastScenery from "../images/PodcastScenery.png";
 
 function Podcast() {
   return (
-    <div className=" w-full h-full my-24 md:flex">
+    <div className=" w-full h-full my-24 pt-10 md:flex">
       <div className="w-full md:hidden">
         <img className="w-3/4" src={PodcastTitle} alt="Podcast?" />
       </div>
