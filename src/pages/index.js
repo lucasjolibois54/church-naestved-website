@@ -1,9 +1,10 @@
 import * as React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+//framer-motion
+import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 //components
-import Button from "../components/Button";
-import ButtonVanilla from "../components/ButtonVanilla";
-import ButtonTailwind from "../components/ButtonTailwind";
 import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
@@ -12,6 +13,9 @@ import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
+import ImagePopper from "../components/ImagePopper";
+import { Header } from "../components/ImagePopper/Header";
+
 
 // markup
 const IndexPage = () => {
@@ -19,6 +23,14 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <Hero />
+      <div className="container">
+        <AnimateSharedLayout type="crossfade">
+          <Header />
+          <Router>
+            <Route path={["/:id", "/"]} component={ImagePopper} />
+          </Router>
+        </AnimateSharedLayout>
+      </div>
       <ValueSec />
       <AboutHome />
       <Hand />
