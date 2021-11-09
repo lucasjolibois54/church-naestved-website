@@ -18,7 +18,7 @@ function AboutHome() {
           </p>
           <h3 className="text-2xl font-semibold text-dark-text pb-5 pt-2">
           Find us on social media:{" "}
-            <span className="text-regular-green font-bold">Find us on social media: </span>.
+            <span className="text-regular-green font-bold">Find us on social media: </span>
           </h3>
           <div className="flex justify-center text-center items-center py-8 xl:justify-start">
             <a
