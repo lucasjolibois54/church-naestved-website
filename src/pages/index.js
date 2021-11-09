@@ -11,6 +11,9 @@ import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
 import ImagePopper from "../components/ImagePopper/ImagePopper";
 
+//Styling for ImagePopper
+import "../styles/styles.css";
+
 
 // markup
 const IndexPage = () => {
