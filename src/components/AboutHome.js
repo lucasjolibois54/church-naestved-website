@@ -2,6 +2,7 @@ import React from 'react'
 import Kirke from "../images/Krike.png";
 
 function AboutHome() {
+
     return (
         <div className=" p-28 flex flex-col w-full xl:flex-row">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
@@ -29,7 +30,7 @@ function AboutHome() {
           </div>
         </div>
         <div className="w-full xl:w-5/10">
-          <img src={Kirke} className="h-full p-16" />
+          <img src={Kirke} className="zoom h-full p-16" />
         </div>
       </div>
     )
