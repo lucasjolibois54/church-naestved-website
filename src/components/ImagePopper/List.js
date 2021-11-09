@@ -1,5 +1,5 @@
 import React from "react";
-import { items } from "./Data";
+import { items } from "./data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
