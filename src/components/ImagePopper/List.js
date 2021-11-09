@@ -1,7 +1,7 @@
 import React from "react";
-import { items } from "./data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { items } from "./data";
 
 function Card({ id, title, category, theme }) {
   return (
@@ -12,7 +12,7 @@ function Card({ id, title, category, theme }) {
             className="card-image-container"
             layoutId={`card-image-container-${id}`}
           >
-            <img className="card-image" src={`images/${id}.jpg`} alt="" />
+            <img className="card-image" src={`./popperImages/${id}.jpg`} alt="" />
           </motion.div>
           <motion.div
             className="title-container"
