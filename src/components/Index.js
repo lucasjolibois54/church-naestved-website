@@ -86,13 +86,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={0}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                        <img src="https://i.ibb.co/VSsN4Jt/carousel-2.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                        <img src="https://i.ibb.co/tMB5CZW/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-3-1.png" alt="sitting area" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="sitting area" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -102,13 +102,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={1}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                        <img src="https://i.ibb.co/phw8yGZ/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-1.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                        <img src="https://i.ibb.co/g74VYR2/Group-46.png" alt="chairs" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="chairs" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
@@ -118,13 +118,13 @@ export default function Index() {
                             <Slide className="carousel__inner-slideLarge" index={2}>
                                 <div className="gallery-cell w-full h-full">
                                     <div className="relative w-full h-full lg:block hidden">
-                                        <img src="https://i.ibb.co/92ZYJyK/behzad-ghaffarian-nh-Wg-ZNV85-LQ-unsplash-1-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
                                     </div>
                                     <div className="relative w-full h-full lg:hidden">
-                                        <img src="https://i.ibb.co/372ryYP/sven-brandsma-Qz6-Zx4-Rjd-D8-unsplash-3-1.png" alt="chair" className="object-center object-cover w-full h-full" />
+                                        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="chair" className="object-center object-cover w-full h-full" />
                                         <div className="pl-6 pb-6 lg:pl-8 lg:pb-8 absolute left-0 bottom-0">
                                             <h1 className="text-xl leading-5 lg:text-2xl lg:leading-normal font-medium text-white">Lounge Interior</h1>
                                         </div>
