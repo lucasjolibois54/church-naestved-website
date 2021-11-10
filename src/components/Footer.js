@@ -27,7 +27,7 @@ function Footer() {
                </div>
                <div className="p-5">
                   <div className="text-m uppercase text-orange-text font-bold">Kontakt os</div>
-                  <a className="my-3 block" href="/#">Sct Peders Kirkeplads 16, 4700 Næstved <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">55 72 31 90 <span className="text-teal-600 text-xs p-1"></span></a>
+                  <a className="my-3 block" href="/#">Sct Peders Kirkeplads 16, 4700 Næstved <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="tel:55723190">55 72 31 90 <span className="text-teal-600 text-xs p-1"></span></a>
                </div>
             </div>
          </div>
