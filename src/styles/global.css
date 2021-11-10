@@ -1,3 +1,19 @@
+html, body {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 900;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 900;
+}
+
+.font-sans {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 900;
+}
+
 /* ./src/styles/global.css */
 @tailwind base;
 @tailwind components;

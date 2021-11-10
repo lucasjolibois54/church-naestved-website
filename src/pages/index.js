@@ -9,10 +9,12 @@ import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
-import ImagePopper from "../components/ImagePopper/ImagePopper";
 
-//Styling for ImagePopper
-import "../styles/styles.css";
+//ImagePopper
+import Card from "../components/Card"
+
+import '../styles/global.css';
+
 
 
 // markup
@@ -21,7 +23,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <Hero />
-      <ImagePopper />
+      <Card />
       <ValueSec />
       <AboutHome />
       <Hand />

@@ -10,6 +10,14 @@ module.exports = {
       options: {
         icon: "src/images/icon.png",
       },
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Poppins\:100, 200, 300, 400, 500, 600, 700, 800, 900`,
+          `Oxygen`, // second font
+        ],
+        display: 'swap'
+      },
     },
     "gatsby-plugin-mdx",
     {
