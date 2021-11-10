@@ -1,0 +1,9 @@
+#hero {
+    background-image: url("../images/hero.png");
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero {
+        background-image: none;
+    }
+}

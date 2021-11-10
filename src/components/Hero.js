@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
+import '../styles/bg.css'
 import hero from '../images/hero.png';
 import logo from '../images/logo.png';
 import fb from '../images/fb_ikon.png';
@@ -9,7 +10,7 @@ import yt from '../images/yt_ikon.png';
 
 function Hero() {
     return (
-        <div className="px-24 w-full bg-hero-bg" >
+        <div className="px-24 w-full" id="hero" >
             <div className="flex h-screen">
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
