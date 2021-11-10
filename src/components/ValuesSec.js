@@ -23,20 +23,20 @@ function ValueSec() {
       >
         <div className="w-full bg-light-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-4xl font-black pb-10 text-biege-text md:text-5xl">Barmhjertighed</h2>
-          <h2 className="pl-10 text-2xl text-biege-text">Barmhjertighed betyder meget for os i det
+          <h2 className="pl-10 text-xl text-biege-text">Barmhjertighed betyder meget for os i det
 at tage sig af hinanden og vise omsorg
 er en vigtig del af det vi står for.</h2>
         </div>
         <div className="w-full bg-medium-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-4xl pb-10 font-black text-biege-text  md:text-5xl">kærlighed</h2>
-          <h2 className="pl-10 pr-10 text-2xl text-biege-text">
+          <h2 className="pl-10 pr-10 text-xl text-biege-text">
           Kærlighed for os er som en varm inderlig følelse af hengivenhed og respekt 
 vi viser til andre
           </h2>
         </div>
         <div className="w-full bg-dark-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-4xl pb-10 font-black text-biege-text  md:text-5xl">velgørenhed</h2>
-          <h2 className="pl-10 text-2xl text-biege-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
+          <h2 className="pl-10 text-xl text-biege-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
         </div>
       </div>
     )
