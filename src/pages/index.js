@@ -22,6 +22,7 @@ import '../styles/global.css';
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <div style={gridLayout}>
       <title>Home Page</title>
       <Nav/>
       <Hero />
@@ -33,6 +34,7 @@ const IndexPage = () => {
       <Event />
       <Index />
       <Footer />
+      </div>
     </main>
   );
 };
@@ -40,8 +42,11 @@ const IndexPage = () => {
 export default IndexPage;
 
 // styles
+const gridLayout = {
+  maxWidth: 2000,
+}
+
 const pageStyles = {
-  maxWidth: 2300,
   backgroundColor: "#F8F2E3",
   color: "#232129",
   padding: 0,
