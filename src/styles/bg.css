@@ -1,7 +1,8 @@
 #hero {
     background-image: url("../images/kirke_bg.jpg");
     background-repeat: none;
-    background-position: center;
+    background-position-x: 36%;
+    background-position-y: 22.5%;
 }
 
 @media only screen and (min-width: 1024px) {
