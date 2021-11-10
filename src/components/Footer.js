@@ -15,7 +15,7 @@ function Footer() {
          <div className=" pt-7">
             <div className="max-w-screen-lg px-4 sm:px-6 text-biege-text sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
                <div className="h-full object-cover relative">
-                  <img src={logo} className="absolute top-10 left-10" alt="logo" />
+                  <img src={logo} className="absolute top-10 md:left-10 right-10" alt="logo" />
                </div>
                <div className="p-5">
                   <div className="text-m uppercase text-orange-text font-bold">Navigation</div>
@@ -32,7 +32,7 @@ function Footer() {
             </div>
          </div>
 
-         <div className="pb-5 text-center text-biege-text">© Copyright 2020. All Rights Reserved.</div>
+         <div className="pb-5 text-center text-biege-text">© Copyright 2021. All Rights Reserved.</div>
       </div>
 
 
