@@ -30,7 +30,8 @@ er en vigtig del af det vi står for.</h2>
         <div className="w-full bg-medium-green pt-10 pb-20 sm:w-2/6">
           <h2 className="pl-8 text-4xl pb-10 font-black text-biege-text  md:text-5xl">kærlighed</h2>
           <h2 className="pl-10 pr-10 text-2xl text-biege-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Kærlighed for os er som en varm inderlig følelse af hengivenhed og respekt 
+vi viser til andre
           </h2>
         </div>
         <div className="w-full bg-dark-green pt-10 pb-20 sm:w-2/6">
