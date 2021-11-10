@@ -1,5 +1,7 @@
 #hero {
-    background-image: url("../images/hero.png");
+    background-image: url("../images/kirke_bg.jpg");
+    background-repeat: none;
+    background-position: center;
 }
 
 @media only screen and (min-width: 1024px) {
