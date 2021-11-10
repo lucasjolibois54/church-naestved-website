@@ -33,5 +33,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [
+    'gatsby-plugin-postcss',
+  ]
 }

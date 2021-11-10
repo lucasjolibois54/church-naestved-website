@@ -10,20 +10,23 @@ import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
-import ImagePopper from "../components/ImagePopper/ImagePopper";
 
-//Styling for ImagePopper
-import "../styles/styles.css";
+//ImagePopper
+import Card from "../components/Card"
+
+import '../styles/global.css';
+
 
 
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <div style={gridLayout}>
       <title>Home Page</title>
       <Nav/>
       <Hero />
-      <ImagePopper />
+      <Card />
       <ValueSec />
       <AboutHome />
       <Hand />
@@ -31,6 +34,7 @@ const IndexPage = () => {
       <Event />
       <Index />
       <Footer />
+      </div>
     </main>
   );
 };
@@ -38,6 +42,10 @@ const IndexPage = () => {
 export default IndexPage;
 
 // styles
+const gridLayout = {
+  /*maxWidth: 2000,*/
+}
+
 const pageStyles = {
   backgroundColor: "#F8F2E3",
   color: "#232129",
