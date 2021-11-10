@@ -5,6 +5,13 @@
     background-position-y: 22.5%;
 }
 
+@media only screen and (min-width: 766px) {
+    #hero {
+        background-position-x: 32.5%;
+        background-position-y: 20%;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     #hero {
         background-image: none;
