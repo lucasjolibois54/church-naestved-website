@@ -10,6 +10,7 @@ import Event from "../components/Event";
 import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
+import Findos from "../components/Findos.js";
 
 //ImagePopper
 import Card from "../components/Card"
@@ -33,6 +34,7 @@ const IndexPage = () => {
       <Podcast />
       <Event />
       <Index />
+      <Findos/>
       <Footer />
       </div>
     </main>
