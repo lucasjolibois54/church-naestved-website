@@ -18,8 +18,7 @@ function AboutHome() {
             <span className="text-regular-green"> kende om os</span>
           </h2>
           <p className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
-          I Næstved provsti har vi fokus på det, der er fælles. Her hjælper og inspirerer alle sogne og kirker hinanden, så mennesker, uanset hvor de bor, kan blive mødt af ordet om Gud. Her er man altid velkommen til at deltage i en gudstjeneste, studiekreds, babysalmesang eller koncert, til at besøge en kirke som turist eller arkitekturinteresseret,
-til at blive undervist, få en samtale med en præst eller markere en vigtig livssituation med et kirkeligt ritual, fordi Gud spiller en rolle i det konkret levede liv til at deltage med det du kan, som den du er
+          I Næstved provsti har vi fokus på det, der er fælles. Her hjælper og inspirerer alle sogne og kirker hinanden, så mennesker, uanset hvor de bor, kan blive mødt af ordet om Gud. Her er man altid velkommen til at deltage i en gudstjeneste, studiekreds, babysalmesang eller koncert, til at besøge en kirke som turist eller arkitektur interesseret, til at blive undervist, få en samtale med en præst eller markere en vigtig livssituation med et kirkeligt ritual.
 
 
 
