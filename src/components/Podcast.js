@@ -29,7 +29,7 @@ function Podcast() {
           I samarbejde med Næstved Provsti, har vi kreeret en podcast med fokus i at starte debatter med vores gæster samt sætte tanker i gang fra jeres perspektiv af. Vi debatterer om alt fra Kristendomen, depression, hvilke problemer kendte har været igennem i løbet af deres liv og meget mere. Hør mere om vores podcast herunder.
           </p>
           <a
-            className="font-semibold bg-regular-green px-4 py-2 text-biege-text rounded"
+            className="font-semibold bg-regular-green hover:bg-light-green px-4 py-2 text-biege-text rounded"
             href="https://github.com/"
           >
             Få mere at vide &rarr;
