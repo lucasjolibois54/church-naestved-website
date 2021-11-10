@@ -4,7 +4,7 @@ import Kirke from "../images/Krike.png";
 function AboutHome() {
 
     return (
-        <div className=" p-0 flex flex-col w-full xl:flex-row">
+        <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-2xl pt-10 font-semibold text-regular-green">
           Mere om os
