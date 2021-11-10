@@ -13,7 +13,7 @@ module.exports = {
         'orange-text': '#C98E54'
       },
       backgroundImage: {
-        'hero-bg': "url('/images/hero.png')"
+        'hero-bg': "url('/src/images/hero.png')"
       }
     },
     screens: {

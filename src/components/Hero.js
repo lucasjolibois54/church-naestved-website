@@ -9,7 +9,7 @@ import yt from '../images/yt_ikon.png';
 
 function Hero() {
     return (
-        <div className="px-24 w-full">
+        <div className="px-24 w-full bg-hero-bg" >
             <div className="flex h-screen">
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
