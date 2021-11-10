@@ -37,7 +37,7 @@ function Hand() {
         <div className="flex justify-center text-center items-center py-3 xl:justify-start">
           <a
             href="https://tailwindcss.com/docs/responsive-design"
-            className="font-semibold bg-regular-green px-4 py-2 text-biege-text rounded"
+            className="font-semibold bg-regular-green hover:bg-light-green px-4 py-2 text-biege-text rounded"
           >
             Eller kontakt os anonymt <span className="font-black">&rarr;</span>
           </a>
