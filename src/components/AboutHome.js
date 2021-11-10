@@ -23,7 +23,7 @@ function AboutHome() {
 
 
           </p>
-          <h3 className="text-xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center md:flex-row md:text-2xl"><span className="mr-3 mb-4 md:mb-0">
+          <h3 className="text-xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center xl:flex-row xl:text-2xl"><span className="mr-3 mb-4 xl:mb-0">
           Find os på sociale medier:{" "}</span>
             <span className="text-regular-green font-bold flex"><img src={fb} className=" h-auto w-7 mr-3" /><img src={ig} className=" h-auto w-7  mr-3" /><img src={tw} className=" h-auto w-7  mr-3" /><img src={yt} className=" h-auto w-7" /></span>
           </h3>
