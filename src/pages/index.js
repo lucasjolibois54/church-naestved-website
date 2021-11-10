@@ -1,7 +1,7 @@
 import * as React from "react";
 
 //components
-import Nav from "../components/nav";
+import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
@@ -11,33 +11,31 @@ import Index from "../components/Index";
 import Footer from "../components/Footer";
 import AboutHome from "../components/AboutHome";
 import Findos from "../components/Findos.js";
-import Kontakt from "../components/Kontakt.js"
+import Kontakt from "../components/Kontakt.js";
 
 //ImagePopper
-import Card from "../components/Card"
+import Card from "../components/Card";
 
-import '../styles/global.css';
-
-
+import "../styles/global.css";
 
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <div style={gridLayout}>
-      <title>Home Page</title>
-      <Nav/>
-      <Hero />
-      <Card />
-      <ValueSec />
-      <AboutHome />
-      <Hand />
-      <Podcast />
-      <Event />
-      <Index />
-      <Findos/>
-      <Kontakt/>
-      <Footer />
+        <title>Home Page</title>
+        <Navigation />
+        <Hero />
+        <Card />
+        <ValueSec />
+        <AboutHome />
+        <Hand />
+        <Podcast />
+        <Event />
+        <Index />
+        <Findos />
+        <Kontakt />
+        <Footer />
       </div>
     </main>
   );
@@ -48,7 +46,7 @@ export default IndexPage;
 // styles
 const gridLayout = {
   /*maxWidth: 2000,*/
-}
+};
 
 const pageStyles = {
   backgroundColor: "#F8F2E3",
