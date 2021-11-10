@@ -26,7 +26,7 @@ function Podcast() {
             <span className="text-dark-text"> Stream vores</span> podcast nu!
           </h2>
           <p className="py-6 lg:pr-12 xl:pr-40 2xl:pr-96">
-          I samarbejde med Næstved Provsti, har vi kreeret en podcast med fokus i at starte debatter med vores gæster samt sætte tanker i gang fra jeres perspektiv af. Vi debattere om alt fra Kristendomen, depression, hvilke problem kendte har været igennem i løbet af deres liv og meget mere. Hør mere om vores podcast herunder.
+          I samarbejde med Næstved Provsti, har vi kreeret en podcast med fokus i at starte debatter med vores gæster samt sætte tanker i gang fra jeres perspektiv af. Vi debatterer om alt fra Kristendomen, depression, hvilke problemer kendte har været igennem i løbet af deres liv og meget mere. Hør mere om vores podcast herunder.
           </p>
           <a
             className="font-semibold bg-regular-green px-4 py-2 text-biege-text rounded"
