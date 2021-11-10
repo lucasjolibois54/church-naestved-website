@@ -30,7 +30,7 @@ function AboutHome() {
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
             <a
               href="https://tailwindcss.com/docs/responsive-design"
-              className="font-semibold bg-dark-green px-4 py-2 text-biege-text rounded"
+              className="font-semibold bg-dark-green hover:bg-light-green px-4 py-2 text-biege-text rounded"
             >
               Lær mere om os &rarr;
             </a>
