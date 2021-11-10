@@ -43,7 +43,7 @@ export default IndexPage;
 
 // styles
 const gridLayout = {
-  maxWidth: 2000,
+  /*maxWidth: 2000,*/
 }
 
 const pageStyles = {
