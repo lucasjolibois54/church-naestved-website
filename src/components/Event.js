@@ -29,7 +29,7 @@ function Event() {
             <div class="mt-8 ml-6 lg:pl-12 lg:mt-4">
               <a
                 href="https://www.facebook.com/FontGen/"
-                className="bg-dark-green px-4 py-3 md:font-semibold text-biege-text inline-flex items-center space-x-2 rounded"
+                className="bg-dark-green hover:bg-light-green px-4 py-3 md:font-semibold text-biege-text inline-flex items-center space-x-2 rounded"
               >
                 <span>Lær mere om events</span>
               </a>
