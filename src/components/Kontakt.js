@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
-
+import bible from "../images/photo-1492729762352-e42d40fd3ed5.jpeg";
 
 function Kontakt() {
     return (
@@ -9,15 +9,15 @@ function Kontakt() {
         className="
         font-sans
           mb-0
-          mt-20
+          mt-40
           flex flex-col
           content-center
           text-off-white text-3xl
           lg:flex-row
         "
       >
-        <div className="w-full bg-light-green pt-10 pb-20 pr-10 text-right w-100% lg:w-1/2">
-          <h2 className="pl-8 text-4xl font-black pb-10 pr-10  text-biege-text md:text-5xl">Billede af kirke skal ind her</h2>
+        <div className="w-full bg-transparent pt-10 pb-20 pr-10 text-right w-100% lg:w-1/2">
+        <img src={bible} className="h-full md:pl-56" />
         </div>
         <div className="w-full bg-biege-text pt-10 pb-20 text-left pl-10 w-100% lg:w-1/2">
           <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0">
