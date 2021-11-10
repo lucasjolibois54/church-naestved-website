@@ -11,6 +11,9 @@ module.exports = {
         'biege-text': '#F8F2E3',
         'dark-text': '#4A4A4A',
         'orange-text': '#C98E54'
+      },
+      backgroundImage: {
+        'hero-bg': "url('/images/hero.png')"
       }
     },
     screens: {
