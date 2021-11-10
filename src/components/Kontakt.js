@@ -9,7 +9,7 @@ function Kontakt() {
         className="
         font-sans
           mb-0
-          mt-40
+          mt-32
           flex flex-col
           content-center
           text-off-white text-3xl
