@@ -8,18 +8,18 @@ function Event() {
     <div>
       <div class="  mb-28  lg:py-12 lg:flex lg:justify-center">
         <div class="lg:mx-8 lg:flex lg:max-w-8xl lg:rounded-lg">
-          <div class="lg:w-9/12">
-            <div class="h-64 bg-cover lg:rounded-lg lg:h-96">
-              <img src={event} className="h-full" alt="" />
+          <div class="lg:w-9/12 2xl:w-full">
+            <div class="h-64 bg-cover lg:rounded-lg lg:h-96 2xl:w-full 2xl:h-full">
+              <img src={event} className="h-full 2xl:w-full" alt="" />
             </div>
           </div>
           <div class="py-12 max-w-xl lg:max-w-2xl lg:w-full lg:py-0 2xl:max-w-3xl">
             <div className="bg-regular-green h-18 pt-2 lg:h-20">
-              <h2 class="text-4xl font-bold font-sans text-biege-text transform translate-y-3 ml-5 lg:text-center md:text-5xl stroke-green lg:translate-y-8 lg:ml-0 2xl:text-6xl">
+              <h2 class="text-4xl font-black text-biege-text transform translate-y-3 ml-5 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
                 Hør mere om vores events
               </h2>
             </div>
-            <p class="text-dark-text mt-12 mx-6 lg:mt-10 lg:pl-12 2xl:pr-28 2xl:mt-12">
+            <p class="text-dark-text text-l mt-12 mx-6 lg:pr-20 lg:mt-10 lg:pl-12 2xl:pr-28 2xl:mt-12">
               Som en del af vores nye koncept, er vi i samrbejde med vores kirke
               begyndt på at lave events hvorpå vores fokus er at skabe et
               fællesskab. Alle events er gratis, og vi holder alt fra musik
