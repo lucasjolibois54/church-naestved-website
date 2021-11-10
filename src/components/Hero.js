@@ -18,7 +18,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="flex flex-col items-right justify-between text-center lg:text-right px-8 md:px-12 lg:w-1/2">
-                    <div className="flex items-right flex-col mt-96">
+                    <div className="flex items-right flex-col mt-64">
                         <h1 className="py-5 text-4xl sm:text-6xl font-black font-sans text-dark-text 2xl:text-8xl"><span className="ml-2 text-regular-green">Save</span> the lord</h1>
 
                         <p className="mt-2 md:text-right text-sm text-dark-text md:text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

@@ -1,6 +1,7 @@
 import * as React from "react";
 
 //components
+import Nav from "../components/nav";
 import Hero from "../components/Hero";
 import ValueSec from "../components/ValuesSec";
 import Hand from "../components/Hand";
@@ -22,6 +23,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <Nav/>
       <Hero />
       <Card />
       <ValueSec />

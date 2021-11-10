@@ -3,13 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors:{
+      colors: {
         'light-green': '#3D6955',
         'medium-green': '#325244',
         'dark-green': '#2E473C',
         'regular-green': '#365E4C',
         'biege-text': '#F8F2E3',
         'dark-text': '#4A4A4A',
+        'orange-text': '#C98E54'
       }
     },
     screens: {
@@ -28,7 +29,7 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    },
+  },
   variants: {
     extend: {},
   },
