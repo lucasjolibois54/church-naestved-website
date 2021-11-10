@@ -41,7 +41,7 @@ function Kontakt() {
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-7 text-sm text-gray-600">
-                    Name
+                    Navn
                   </label>
                   <input
                     type="text"
@@ -57,7 +57,7 @@ function Kontakt() {
                     for="email"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Email
+                    E-mail
                   </label>
                   <input
                     type="email"
@@ -73,7 +73,7 @@ function Kontakt() {
                     for="message"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Message
+                    Besked
                   </label>
                   <textarea
                     id="message"
