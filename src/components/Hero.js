@@ -19,7 +19,7 @@ function Hero() {
 
                         <p className="mt-2 md:text-right text-sm text-dark-text md:text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div className="flex space-x-3 justify-center md:justify-end lg:justify-end mt-6">
-                            <a href="https://www.facebook.com/FontGen/" className="bg-dark-green px-4 py-2 md:font-semibold text-biege-text inline-flex items-center space-x-2 rounded">
+                            <a href="#" className="bg-dark-green px-4 py-2 md:font-semibold text-biege-text inline-flex items-center space-x-2 rounded">
                                 <span>LEARN MORE ➡</span>
                             </a>
                         </div>
