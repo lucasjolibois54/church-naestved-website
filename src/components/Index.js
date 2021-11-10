@@ -6,7 +6,7 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 
 export default function Index() {
     return (
-        <div className="2xl:mx-auto 2xl:container flex justify-center">
+        <div className="mt-28 2xl:mx-auto 2xl:container flex justify-center">
             <div className="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
                 {/* Carousel for Small-Sized Screen */}
                 <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true}>
