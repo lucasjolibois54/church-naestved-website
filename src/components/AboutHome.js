@@ -8,7 +8,7 @@ import yt from '../images/yt_ikon.png';
 function AboutHome() {
 
     return (
-        <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16">
+        <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-2xl pt-10 font-semibold text-regular-green">
           Mere om os
@@ -20,7 +20,7 @@ function AboutHome() {
           <p className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
-          <h3 className="text-2xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center md:flex-row"><span className="mr-3">
+          <h3 className="text-xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center md:flex-row md:text-2xl"><span className="mr-3 mb-4 md:mb-0">
           Find us on social media:{" "}</span>
             <span className="text-regular-green font-bold flex"><img src={fb} className=" h-auto w-7 mr-3" /><img src={ig} className=" h-auto w-7  mr-3" /><img src={tw} className=" h-auto w-7  mr-3" /><img src={yt} className=" h-auto w-7" /></span>
           </h3>
