@@ -16,12 +16,7 @@ function Findos() {
                 </h2>
                 <p className="text-lg px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
                     Vores hoved kirke er localiseret i: Østre Kapelvej 10, 4700 Næstved; hvor du altid kan komme forbi hvis du har nogle spørgsmål eller ligende. Ellers er du altid velkommen til at kontakte os på mail; naestved.provsti@km.dk
-
-
-
-                </p>
-
-            
+                        </p>
             </div>
             <div className="w-full xl:w-5/10">
                 <div className="items-center grid place-items-center">
