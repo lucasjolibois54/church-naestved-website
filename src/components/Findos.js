@@ -31,7 +31,7 @@ function Findos() {
                 </div>
             </div>
             <div className="w-full xl:w-5/10">
-                <img src={Kirke} className=" h-full p-16" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2275.602893083584!2d11.786574!3d55.22518900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46529769d9971641%3A0xf02bfa1717118a36!2sN%C3%A6stved%20Provsti!5e0!3m2!1sen!2sdk!4v1636562656241!5m2!1sen!2sdk" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     )
