@@ -14,7 +14,7 @@ function Event() {
                     </div>
                     <div class="py-12 px-6 max-w-xl lg:max-w-8xl lg:w-11/12">
                         <h2 class="text-3xl font-bold">Hør mere om vores events </h2>
-                        <p class="mt-4 ml-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p class="mt-4 ml-6">Som en del af vores nye koncept, er vi i samrbejde med vores kirke begyndt på at lave events hvorpå vores fokus er at skabe et fællesskab. Alle events er gratis, og vi holder alt fra musik events, mad, fredags hygge, rap gydstjenester og meget mere. Dette er ikke noget du vil gå glip af! </p>
                         <div class="mt-8 ml-6">
                             <a href="https://www.facebook.com/FontGen/" className="bg-dark-green px-4 py-2 md:font-semibold text-biege-text inline-flex items-center space-x-2 rounded">
                                 <span>LEARN MORE ➡</span>
