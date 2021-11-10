@@ -18,7 +18,11 @@ function AboutHome() {
             <span className="text-regular-green"> kende om os</span>
           </h2>
           <p className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          I Næstved provsti har vi fokus på det, der er fælles. Her hjælper og inspirerer alle sogne og kirker hinanden, så mennesker, uanset hvor de bor, kan blive mødt af ordet om Gud. Her er man altid velkommen til at deltage i en gudstjeneste, studiekreds, babysalmesang eller koncert, til at besøge en kirke som turist eller arkitekturinteresseret,
+til at blive undervist, få en samtale med en præst eller markere en vigtig livssituation med et kirkeligt ritual, fordi Gud spiller en rolle i det konkret levede liv til at deltage med det du kan, som den du er
+
+
+
           </p>
           <h3 className="text-xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center md:flex-row md:text-2xl"><span className="mr-3 mb-4 md:mb-0">
           Find os på sociale medier:{" "}</span>
