@@ -41,6 +41,7 @@ export default IndexPage;
 
 // styles
 const pageStyles = {
+  maxWidth: 2300,
   backgroundColor: "#F8F2E3",
   color: "#232129",
   padding: 0,
