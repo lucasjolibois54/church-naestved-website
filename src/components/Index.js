@@ -1,12 +1,18 @@
 import React, { useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
 export default function Index() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (
-        <div className="mt-28 2xl:mx-auto 2xl:container flex justify-center">
+        <div data-aos="fade-up" className="mt-28 2xl:mx-auto 2xl:container flex justify-center">
             <div className="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
                 {/* Carousel for Small-Sized Screen */}
                 <CarouselProvider className="relative block sm:hidden" naturalSlideWidth={100} isIntrinsicHeight={true} totalSlides={3} visibleSlides={1} step={1} infinite={true}>
