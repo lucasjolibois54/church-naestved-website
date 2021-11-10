@@ -13,7 +13,7 @@ function AboutHome() {
           <h3 className="text-2xl pt-10 font-semibold text-regular-green">
           Mere om os
           </h3>
-          <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-3">
+          <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-2">
             Lær mere at <br />
             <span className="text-regular-green"> kende om os</span>
           </h2>
