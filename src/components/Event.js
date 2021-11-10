@@ -6,7 +6,7 @@ import event from "../images/event.png";
 function Event() {
   return (
     <div>
-      <div class="mt-28 lg:py-12 lg:flex lg:justify-center">
+      <div class="mt-28   mb-28  lg:py-12 lg:flex lg:justify-center">
         <div class="lg:mx-8 lg:flex lg:max-w-8xl lg:rounded-lg">
           <div class="lg:w-9/12">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-96">
