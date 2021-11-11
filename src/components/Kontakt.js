@@ -31,7 +31,7 @@ function Kontakt() {
                     <span data-aos="fade-left" className="text-regular-green">på mail</span>
                 </h2>
                 <p data-aos="fade-left" className="text-lg  text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-48">
-                    Send os en e-mail os få svar på samme dag!
+                    Send os en e-mail og få svar på samme dag!
                 </p>
 
 
