@@ -13,11 +13,6 @@ import AboutHome from "../components/AboutHome";
 import Findos from "../components/Findos.js";
 import Kontakt from "../components/Kontakt.js";
 
-//ImagePopper
-import Card from "../components/Card";
-
-import "../styles/global.css";
-
 // markup
 const IndexPage = () => {
   return (
@@ -26,7 +21,6 @@ const IndexPage = () => {
         <title>Home Page</title>
         <Navigation />
         <Hero />
-        <Card />
         <ValueSec />
         <AboutHome />
         <Hand />
