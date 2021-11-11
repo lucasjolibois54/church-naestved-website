@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/global.css';
 import '../styles/bg.css'
 import hero from '../images/hero.png';
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 import fb from '../images/fb_ikon.png';
 import ig from '../images/ig_ikon.png';
 import tw from '../images/tw_ikon.png';
@@ -14,7 +14,7 @@ function Hero() {
             <div className="flex h-screen">
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
-                        <img src={logo} className="absolute top-10 left-10" alt="logo" />
+                        <img src={logo} className="absolute w-20 top-10 left-10" alt="logo" />
                         <img src={hero} className="h-full" alt="" />
                     </div>
                 </div>
