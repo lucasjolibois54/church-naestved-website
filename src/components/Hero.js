@@ -6,7 +6,7 @@ import logo from '../images/logo.png';
 import fb from '../images/fb_ikon.png';
 import ig from '../images/ig_ikon.png';
 import tw from '../images/tw_ikon.png';
-import yt from '../images/yt_ikon.png'; 
+import yt from '../images/yt_ikon.png';
 
 function Hero() {
     return (
@@ -29,16 +29,16 @@ function Hero() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-end md:justify-center lg:justify-end items-center mb-14 md:mb-10 lg:mb-20 h-20">
-                        <a className="m-2 md:m-4" href="https://www.facebook.com/naestvedprovsti">
+                        <a className="m-2 w-8 md:m-4" href="https://www.facebook.com/naestvedprovsti">
                             <img src={fb}></img>
                         </a>
-                        <a className="m-2 md:m-4" href="https://www.instagram.com/naestvedprovsti/">
+                        <a className="m-2 w-8 md:m-4" href="https://www.instagram.com/naestvedprovsti/">
                             <img src={ig}></img>
                         </a>
-                        <a className="m-2 md:m-4" href="#">
+                        <a className="m-2 w-8 md:m-4" href="#">
                             <img src={tw}></img>
                         </a>
-                        <a className="m-2 md:m-4" href="https://www.youtube.com/channel/UC2UpL7ASRJE5nuWLiuGfAoA">
+                        <a className="m-2 w-8 md:m-4" href="https://www.youtube.com/channel/UC2UpL7ASRJE5nuWLiuGfAoA">
                             <img src={yt}></img>
                         </a>
                     </div>
