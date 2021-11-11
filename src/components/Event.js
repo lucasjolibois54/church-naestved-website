@@ -20,8 +20,8 @@ function Event() {
             </div>
           </div>
           <div class="py-12 max-w-xl lg:max-w-2xl lg:w-full lg:py-0 2xl:max-w-3xl">
-            <div className="bg-regular-green h-18 pt-2 lg:h-20">
-              <h2  data-aos="fade-left" class="text-4xl font-black text-biege-text transform translate-y-3 ml-5 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
+            <div data-aos="fade-left"  className="bg-regular-green h-18 pt-2 lg:h-20">
+              <h2  class="text-4xl font-black text-biege-text transform translate-y-3 ml-5 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
                 Hør mere om vores events
               </h2>
             </div>
