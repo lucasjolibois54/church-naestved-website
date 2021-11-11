@@ -1,13 +1,16 @@
-html, body {
-    font-family: 'Poppins', sans-serif !important;
+html,
+body {
+  font-family: "Poppins", sans-serif !important;
 }
 
 body {
-    font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .font-sans {
-    font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 /* ./src/styles/global.css */
