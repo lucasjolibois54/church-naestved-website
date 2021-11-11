@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 
 //Det her eksempel bruger TailwindCSS
 
