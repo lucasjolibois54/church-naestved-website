@@ -12,6 +12,12 @@ export default function Index() {
         Aos.init({ duration: 2000 });
     }, []);
     return (
+        <div>
+                <div data-aos="fade-left"  className="bg-regular-green h-18 pt-2 lg:h-20">
+              <h2  class="text-4xl font-black text-biege-text transform translate-y-3 ml-5 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
+                Hør mere om vores events
+              </h2>
+            </div>
         <div data-aos="fade-up" className=" mb-28 2xl:mx-auto 2xl:container flex justify-center">
             <div className="2xl:px-20 px-6 py-12 w-full lg:w-4/5">
                 {/* Carousel for Small-Sized Screen */}
@@ -137,6 +143,7 @@ export default function Index() {
 
                     </div>
                 </CarouselProvider>
+            </div>
             </div>
 
             <style>
