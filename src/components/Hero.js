@@ -15,7 +15,7 @@ function Hero() {
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
                         <img src={logo} className="absolute w-14 top-10 left-10" alt="logo" />
-                        <img src={hero} className="h-full" alt="" />
+                        <img src={hero} className="h-full" alt="background" />
                     </div>
                 </div>
                 <div className="flex flex-col items-right justify-between text-center lg:text-right md:px-12 lg:w-1/2" id="hero-dt">
@@ -30,16 +30,16 @@ function Hero() {
                     </div>
                     <div className="flex flex-row justify-end md:justify-center lg:justify-end items-center mb-14 md:mb-10 lg:mb-20 h-20">
                         <a className="m-2 w-8 md:m-4" href="https://www.facebook.com/naestvedprovsti">
-                            <img src={fb}></img>
+                            <img src={fb} alt="Social Icon"></img>
                         </a>
                         <a className="m-2 w-8 md:m-4" href="https://www.instagram.com/naestvedprovsti/">
-                            <img src={ig}></img>
+                            <img src={ig} alt="Social Icon"></img>
                         </a>
-                        <a className="m-2 w-8 md:m-4" href="#">
-                            <img src={tw}></img>
+                        <a className="m-2 w-8 md:m-4" href="https://www.instagram.com/naestvedprovsti/">
+                            <img src={tw} alt="Social Icon"></img>
                         </a>
                         <a className="m-2 w-8 md:m-4" href="https://www.youtube.com/channel/UC2UpL7ASRJE5nuWLiuGfAoA">
-                            <img src={yt}></img>
+                            <img src={yt} alt="Social Icon" ></img>
                         </a>
                     </div>
                 </div>
