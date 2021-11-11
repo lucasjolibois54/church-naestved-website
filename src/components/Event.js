@@ -12,7 +12,7 @@ function Event() {
 }, []);
   return (
     <div>
-      <div class="  mb-28  lg:py-12 lg:flex lg:justify-center">
+      <div class="  mb-32  lg:py-12 lg:flex lg:justify-center">
         <div class="lg:mx-8 lg:flex lg:max-w-8xl lg:rounded-lg">
           <div class="lg:w-9/12 2xl:w-full">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-96 2xl:w-full 2xl:h-full">
