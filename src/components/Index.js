@@ -19,15 +19,17 @@ export default function Index() {
   }, []);
   return (
     <div>
-      <div className="w-full flex justify-center px-6 lg:px-12 lg:pr-44 xl:px-14 xl:pr-64 2xl:px-32 2xl:pr-80">
+      <div className="w-full flex justify-center px-6">
+        <div className="w-1/4 h-18 hidden xl:block 2xl:w-1/2"></div>
         <div
           data-aos="fade-left"
-          className="bg-regular-green h-18 pt-2 w-full lg:h-20 lg:w-4/5 2xl:w-3/5 "
+          className="bg-regular-green h-18 pt-2 w-full lg:w-4/5 lg:h-20 xl:w-full"
         >
-          <h2 class="text-4xl font-black text-biege-text transform translate-y-3 px-6 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
+          <h2 class="text-4xl font-black text-biege-text text-center transform translate-y-3 px-6 lg:text-center md:text-4xl stroke-green lg:translate-y-11 lg:ml-0  2xl:translate-y-11">
             Se de events der nærmer sig
           </h2>
         </div>
+        <div className="w-1/4 h-18 hidden xl:block 2xl:w-1/2"></div>
       </div>
       <div
         data-aos="fade-up"
