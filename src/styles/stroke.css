@@ -1,17 +1,17 @@
 .stroke-green {
-  -webkit-text-stroke: 1.25px #365e4c;
+  text-shadow: -3px -3px 0 #365e4c, 3px -3px 0 #365e4c, -3px 3px 0 #365e4c,
+    3px 3px 0 #365e4c;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 1279px) {
   .stroke-green {
-    -webkit-text-stroke: 1.5px #365e4c;
     font-size: 2.5em;
   }
 }
 
 @media only screen and (min-width: 1536px) {
   .stroke-green {
-    -webkit-text-stroke: 2.25px #365e4c;
     font-size: 3em;
   }
 }
