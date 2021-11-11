@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/global.css";
-import PodcastTitle from "../images/PodcastTitle.png";
-import PodcastTitleVertical from "../images/PodcastTitleVertical.png";
-import PodcastScenery from "../images/PodcastScenery.png";
+import PodcastTitle from "../images/podcastTitle.png";
+import PodcastTitleVertical from "../images/podcastTitleVertical.png";
+import PodcastScenery from "../images/podcastScenery.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
