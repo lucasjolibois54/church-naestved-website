@@ -14,7 +14,7 @@ function Hero() {
             <div className="flex h-screen">
                 <div className="hidden lg:block lg:w-1/2">
                     <div className="h-full object-cover relative">
-                        <img src={logo} className="absolute w-20 top-10 left-10" alt="logo" />
+                        <img src={logo} className="absolute w-14 top-10 left-10" alt="logo" />
                         <img src={hero} className="h-full" alt="" />
                     </div>
                 </div>
