@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/global.css";
 import "../styles/stroke.css";
-import event from "../images/event.png";
+import event from "../images/billedeAfEvent.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';

@@ -1,12 +1,12 @@
 import React from 'react'
 import '../styles/global.css';
 import '../styles/bg.css'
-import hero from '../images/hero.png';
+import hero from '../images/indenforMedGud.png';
 import logo from '../images/logo.svg';
-import fb from '../images/fb_ikon.png';
-import ig from '../images/ig_ikon.png';
-import tw from '../images/tw_ikon.png';
-import yt from '../images/yt_ikon.png';
+import fb from '../images/ikonTilFb.png';
+import ig from '../images/instagramIkonet.png';
+import tw from '../images/twitterIkonet.png';
+import yt from '../images/YoutubeMedie.png';
 
 function Hero() {
     return (
@@ -22,7 +22,7 @@ function Hero() {
                     <div className="flex items-right flex-col mt-48 md:mt-64 lg:mt-80">
                         <h1 className="py-5 text-4xl sm:text-6xl font-black font-sans text-dark-text 2xl:text-8xl"><span className="text-regular-green">Næstved</span> Provsti</h1>
                         <p className="mt-2 md:pl-20 2xl:pl-40 lg:text-right text-sm text-dark-text md:text-lg text-center">Det hellige Evangelium er hverdag hos os. Vi befinder os både som din fysiske og digitale kirke med alt fra events med koncerter, arrangementer til gudstjenester og meget mere. </p>
-                        <div className="flex space-x-3 justify-center lg:justify-end lg:justify-end mt-6">
+                        <div className="flex space-x-3 justify-center lg:justify-end mt-6">
                             <a href="https://www.facebook.com/FontGen/" className="bg-dark-green hover:bg-light-green px-2 py-1 md:px-4 md:py-2 font-semibold text-biege-text inline-flex items-center space-x-2 rounded">
                                 <span className="text-lg">Få mere at vide &rarr;</span>
                             </a>

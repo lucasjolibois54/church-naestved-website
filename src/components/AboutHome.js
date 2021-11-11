@@ -2,11 +2,11 @@ import React from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import Kirke from "../images/Krike.png";
-import fb from '../images/fb_ikon.png';
-import ig from '../images/ig_ikon.png';
-import tw from '../images/tw_ikon.png';
-import yt from '../images/yt_ikon.png'; 
+import Kirke from "../images/bygningKirke.png";
+import fb from '../images/ikonTilFb.png';
+import ig from '../images/instagramIkonet.png';
+import tw from '../images/twitterIkonet.png';
+import yt from '../images/YoutubeMedie.png'; 
 
 function AboutHome() {
   useEffect(() => {
@@ -30,7 +30,7 @@ function AboutHome() {
           </p>
           <h3 data-aos="fade-right" className="text-xl font-semibold text-dark-text pb-5 pt-2 flex flex-col items-center xl:flex-row xl:text-2xl"><span className="mr-3 mb-4 xl:mb-0">
           Find os på sociale medier:{" "}</span>
-            <span className="text-regular-green font-bold flex"><img src={fb} className=" h-auto w-7 mr-3" /><img src={ig} className=" h-auto w-7  mr-3" /><img src={tw} className=" h-auto w-7  mr-3" /><img src={yt} className=" h-auto w-7" /></span>
+            <span className="text-regular-green font-bold flex"><img src={fb} className=" h-auto w-7 mr-3" alt="SoMe"/><img src={ig} className=" h-auto w-7  mr-3" alt="SoMe"/><img src={tw} className=" h-auto w-7  mr-3" alt="SoMe"/><img src={yt} className=" h-auto w-7" alt="SoMe"/></span>
           </h3>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
             <a data-aos="fade-right"
@@ -42,7 +42,7 @@ function AboutHome() {
           </div>
         </div>
         <div data-aos="fade-left" className="w-full xl:w-5/10">
-          <img src={Kirke} className=" h-full p-16" />
+          <img src={Kirke} className=" h-full p-16" alt="church"/>
         </div>
       </div>
     )

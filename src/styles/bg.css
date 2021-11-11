@@ -1,5 +1,5 @@
 #hero {
-    background-image: url("../images/kirke_bg.jpg");
+    background-image: url("../images/mobilKirkeBaggrund.jpg");
     background-repeat: none;
     background-position-x: 36%;
     background-position-y: 22.5%;
@@ -18,6 +18,6 @@
     }
 
     #hero-dt {
-        background-image: url(../images/HOLY\ M\ OLY\ HOL\ Y\ MOLY\ HOLY\ M\ OLY\ HOL\ YMOLY\ Y.png);
+        background-image: url(../images/holyBaggrundsBillede.png);
     }
 }

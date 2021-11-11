@@ -3,7 +3,7 @@ import "../styles/global.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import barn from "../images/barn.png";
+import barn from "../images/tristBarn.png";
 
 //Det her eksempel bruger TailwindCSS
 
@@ -19,7 +19,7 @@ function Hand() {
   return (
     <div className="flex flex-col w-full xl:flex-row">
       <div className="w-full xl:w-5/10">
-        <img data-aos="fade-right" src={barn} className="h-full" />
+        <img data-aos="fade-right" src={barn} className="h-full" alt="handen"/>
       </div>
       <div className="flex text-center font-sans flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
         <h3 data-aos="fade-left" className="text-2xl pt-10 font-bold text-regular-green">

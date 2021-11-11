@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/global.css';
-import bible from "../images/photo-1492729762352-e42d40fd3ed5.jpeg";
+import bible from "../images/kontaktBilledeScriptures.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
@@ -22,7 +22,7 @@ function Kontakt() {
         "
         >
             <div data-aos="fade-right" className="w-full bg-transparent pt-10 pb-20 pr-10 text-right w-100% lg:w-1/2">
-                <img src={bible} className="h-full md:pl-56" />
+                <img src={bible} className="h-full md:pl-56" alt="billedet til kontakt"/>
             </div>
             <div className="w-full bg-biege-text pt-10 pb-20 text-left pl-10 w-100% lg:w-1/2">
                 <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0"> <span data-aos="fade-left">
