@@ -42,7 +42,7 @@ function AboutHome() {
           </div>
         </div>
         <div data-aos="fade-left" className="w-full xl:w-5/10">
-          <img src={Kirke} className=" h-full p-16" alt="church"/>
+          <img src={Kirke} className="p-16" alt="church"/>
         </div>
       </div>
     )
