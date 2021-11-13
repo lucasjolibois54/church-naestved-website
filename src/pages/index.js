@@ -18,7 +18,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <div style={gridLayout}>
-        <title>Home Page</title>
+        <title>Næstved Provsti</title>
         <Navigation />
         <Hero />
         <ValueSec />
